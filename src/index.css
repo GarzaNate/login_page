@@ -13,7 +13,7 @@
   background-color: #EDF2F4;
 }
 
-.container {
+.main {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -25,6 +25,10 @@
   border-radius: 25px;
 }
 
+form {
+  justify-content: center;
+}
+
 h1 {
   font-size: 2rem;
 }
@@ -34,7 +38,7 @@ h1 {
   background-color: #EDF2F4;
 }
 
-.light .container {
+.light .main {
   background-color: #fff;
 }
 
@@ -42,7 +46,7 @@ h1 {
   background-color: #3A0CA3;
 }
 
-.dark .container {
+.dark .main {
   background-color: #560BAD;
 }
 
