@@ -1,6 +1,4 @@
 import React from "react";
-import { setMode } from "../state";
-import { useDispatch, useSelector } from "react-redux";
 import {
   FaTwitterSquare,
   FaGoogle,
@@ -11,7 +9,6 @@ import {
 
 const Form = () => {
 
-  const dispatch = useDispatch();
   return (
     <div className="main">
       <h1>Login Form</h1>
@@ -53,7 +50,7 @@ const Form = () => {
       </div>
       <div className="theme-toggle">
         <h2>Theme Toggle</h2>
-        <FaToggleOn onClick={() => dispatch(setMode())} size={"30px"} style={{cursor: "pointer"}}/>
+        <FaToggleOn size={"30px"} style={{cursor: "pointer"}}/>
       </div>
     </div>
   );

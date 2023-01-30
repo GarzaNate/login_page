@@ -4,11 +4,9 @@ import { useSelector } from "react-redux";
 
 
 function App() {
-  
-  const mode = useSelector((state) => state.mode)
 
   return (
-    <div className="App" id="light">
+    <div className="App" id="">
       <Form />
     </div>
   );

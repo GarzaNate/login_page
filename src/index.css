@@ -8,12 +8,12 @@
   --form-bg: #EDF2F4;
 }
 
-[data-theme='dark'] {
+/* [data-theme='dark'] {
   --background: #000;
   --text-primary: #fff;
   --text-secondary: #8e05c2;
   --form-bg: #191919;
-}
+} */
 
 * {
   padding: 0;
